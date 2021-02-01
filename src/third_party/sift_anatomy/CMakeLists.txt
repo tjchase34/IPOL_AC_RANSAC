@@ -10,5 +10,5 @@ ADD_LIBRARY(SiftAnatomy
 
 IF(UNIX)
     SET_TARGET_PROPERTIES(SiftAnatomy PROPERTIES
-                          COMPILE_FLAGS "-std=c++98 -Wall -Wextra")
+                          COMPILE_FLAGS "-std=c++11 -Wall -Wextra")
 ENDIF(UNIX)

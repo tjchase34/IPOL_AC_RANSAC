@@ -12,7 +12,7 @@ ADD_LIBRARY(Orsa ${SRC})
 
 IF(UNIX)
     SET_TARGET_PROPERTIES(Orsa PROPERTIES
-                          COMPILE_FLAGS "-std=c++98 -Wall -Wextra")
+                          COMPILE_FLAGS "-std=c++11 -Wall -Wextra")
 ENDIF(UNIX)
 
 IF(MSVC)

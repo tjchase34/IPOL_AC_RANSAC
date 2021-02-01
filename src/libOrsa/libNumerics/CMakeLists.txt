@@ -12,7 +12,7 @@ ADD_LIBRARY(Numerics ${SRC})
 
 IF(UNIX)
     SET_TARGET_PROPERTIES(Numerics PROPERTIES
-                          COMPILE_FLAGS "-std=c++98 -Wall -Wextra -Werror")
+                          COMPILE_FLAGS "-std=c++11 -Wall -Wextra -Werror")
 ENDIF(UNIX)
 
 #----------
