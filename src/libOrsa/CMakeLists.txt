@@ -8,7 +8,7 @@ SET(SRC conditioning.hpp conditioning.cpp
         orsa.hpp orsa.cpp
         eval_model.hpp eval_model.cpp)
 
-ADD_LIBRARY(Orsa ${SRC})
+ADD_LIBRARY(Orsa SHARED ${SRC})
 
 IF(UNIX)
     SET_TARGET_PROPERTIES(Orsa PROPERTIES
